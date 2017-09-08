@@ -1,4 +1,4 @@
-okta-sign-in.main-container {
+#okta-sign-in.main-container {
   /* -- Fonts and Text Colors -- */
   font-family: "montserrat", Arial, Helvetica, sans-serif;
   color: #E80303;
@@ -8,18 +8,18 @@ okta-sign-in.main-container {
 #okta-sign-in h3 {
   /* -- Fonts and Text Colors -- */
   font-weight: bold;
-  color: #5e5e5e;
+  color: #F00808;
 }
 
 #okta-sign-in .okta-sign-in-header {
   /* -- Fonts and Text Colors -- */
-  color: #5e5e5e;
+  color: #E80707;
 }
 
 #okta-sign-in .okta-form-subtitle,
 #okta-sign-in .okta-form-label {
   /* -- Fonts and Text Colors -- */
-  color: #777;
+  color: #EB0A0A;
 }
 
 #okta-sign-in .link {
