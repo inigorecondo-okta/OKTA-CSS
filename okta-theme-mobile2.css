@@ -1,0 +1,65 @@
+body {
+      background-image: url('http://i.imgur.com/q96VsUt.jpg');
+      background-position: center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+#okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
+    background: #e8c547;
+    color: #1a1d18;
+}
+       
+ #okta-sign-in.auth-container.main-container {
+     color: #fff;
+     background-color: #1a1d1a;
+     border-color: #0c1821;
+ }
+ .beacon-blank {
+     background-color: #000;
+ }
+ #okta-sign-in.auth-container.main-container .bg-helper {
+     color: #000;
+ }
+ #okta-sign-in.auth-container .okta-sign-in-header {
+     border-bottom-color: #323232;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field{
+     background-color: #000;
+     color: #000;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field {
+     border-color: #4d5061;
+     outline: none;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field.focused-input {
+     border-color: #707280;
+ }
+
+#okta-sign-in .registration .subschema .subschema-satisfied {
+    color: green;
+}
+
+
+#okta-sign-in.auth-container .okta-form-input-field input {
+    font-family: "montserrat", Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#okta-sign-in .registration-container .registration-link {
+    margin-left: 10px;
+    color: #e8c547;
+}
+
+#okta-sign-in .infobox, #okta-sign-in .infobox-md {
+    border: 1px solid #cc0000;
+    border-radius: 3px;
+    background-color: #fbfbfb;
+}
+
+
+#okta-sign-in .ajax-form-editor .infobox, #okta-sign-in .edit-form .infobox, #okta-sign-in .form-content-wrap .infobox, #okta-sign-in .m-form .infobox, #okta-sign-in .o-form .infobox, #okta-sign-in .read-only-form .infobox, #okta-sign-in .v-form .infobox {
+    background-color: #101d1a;
+}
