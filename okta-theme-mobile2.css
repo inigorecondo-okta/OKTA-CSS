@@ -63,3 +63,29 @@ body {
 #okta-sign-in .ajax-form-editor .infobox, #okta-sign-in .edit-form .infobox, #okta-sign-in .form-content-wrap .infobox, #okta-sign-in .m-form .infobox, #okta-sign-in .o-form .infobox, #okta-sign-in .read-only-form .infobox, #okta-sign-in .v-form .infobox {
     background-color: #101d1a;
 }
+
+#okta-sign-in.auth-container.main-container {
+     color: #fff;
+     background-color: #1a1d1a;
+     border-color: #0c1821;
+ }
+ .beacon-blank {
+     background-color: #000;
+ }
+ #okta-sign-in.auth-container.main-container .bg-helper {
+     color: #000;
+ }
+ #okta-sign-in.auth-container .okta-sign-in-header {
+     border-bottom-color: #323232;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field{
+     background-color: #000;
+     color: #000;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field {
+     border-color: #4d5061;
+     outline: none;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field.focused-input {
+     border-color: #707280;
+ }
