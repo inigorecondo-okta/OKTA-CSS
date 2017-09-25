@@ -38,11 +38,6 @@ body {
      border-color: #707280;
  }
 
-#okta-sign-in .registration .subschema .subschema-satisfied {
-    color: green;
-}
-
-
 #okta-sign-in.auth-container .okta-form-input-field input {
     font-family: "montserrat", Arial, Helvetica, sans-serif;
     color: #fff;
@@ -89,3 +84,10 @@ body {
  #okta-sign-in.auth-container .okta-form-input-field.focused-input {
      border-color: #707280;
  }
+
+
+
+#okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
+    background: #e8c547;
+    color: #1a1d18;
+}
