@@ -1,5 +1,5 @@
-bbody {
-      background-image: url('http://i.imgur.com/q96VsUt.jpg');
+body {
+ 
       background-position: center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -56,7 +56,7 @@ bbody {
 
 
 #okta-sign-in .ajax-form-editor .infobox, #okta-sign-in .edit-form .infobox, #okta-sign-in .form-content-wrap .infobox, #okta-sign-in .m-form .infobox, #okta-sign-in .o-form .infobox, #okta-sign-in .read-only-form .infobox, #okta-sign-in .v-form .infobox {
-    background-color: #101d1a;
+    background-color: #428877;
 }
 
 #okta-sign-in.auth-container.main-container {
@@ -82,10 +82,10 @@ bbody {
      outline: none;
  }
  #okta-sign-in.auth-container .okta-form-input-field.focused-input {
-     border-color: #707280;
+     border-color: #3545ad;
  }
  
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
     background: #E00875;
-    color: #1a1d18;
+    color: #4d693b;
 }
