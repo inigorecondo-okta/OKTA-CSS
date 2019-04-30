@@ -51,7 +51,7 @@
   
   #okta-sign-in.auth-container.main-container {
     /* -- Main Background and Border Colors -- */
-    background-color: rgb(21, 8, 99);
+    background-color: rgb(11, 21, 168);
     border-color: rgb(110, 28, 28) #ddd #d8d8d8;
     box-shadow: 0 2px 0 rgba(175, 175, 175, 0.12);
   }
