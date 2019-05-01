@@ -61,7 +61,7 @@ body {
     font-family: "montserrat", Arial, Helvetica, sans-serif;
   }
   
-  ##okta-sign-in.auth-container .button-primary {
+    #okta-sign-in.auth-container .button-primary {
     /* -- Main Background and Border Colors -- */
     background-color: #fff;
     border-radius: 50px;
