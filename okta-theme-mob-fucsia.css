@@ -6,6 +6,9 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+#okta-sign-in {
+    border-radius: 15px 50px 30px 5px;
+}
 
 /* stylelint-disable selector-max-id */
 #okta-sign-in.auth-container.main-container {
