@@ -7,6 +7,14 @@ body {
     background-size: cover;
 }
 
+.parent_signin_container{
+    position: absolute; 
+    left: 0; 
+    top: 0; bottom: 0; 
+    width: 600px;
+    background-color: white;
+}
+
 /* CSS okta-sign-in.min.css*/
 
 #okta-sign-in {
