@@ -17,18 +17,19 @@ body {
     font-family: montserrat,Arial,Helvetica,sans-serif;
     font-size: 13px;
     font-weight: 400;
-    line-height: 1.4;
+    /* line-height: 1.4; */
     background-color: #f9f9f9;
-    /* border-radius: 15px 50px 30px 5px; */
+    border-radius: 15px 50px 30px 5px;
     color: #777;
     position: relative;
     overflow: auto;
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
-    height: auto;
+    height: 100%;
+    /* margin: 100px 0px 0px; */
     width: 400px;
-    /* min-width: 300px; */
+    min-width: 300px;
 }
 #okta-sign-in .social-auth-button.link-button {
     border-radius: 50px;
