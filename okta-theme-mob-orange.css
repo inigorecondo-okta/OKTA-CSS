@@ -23,6 +23,16 @@ body {
     padding: 0 15px;
 }
 
+#okta-sign-in .custom-checkbox label, #okta-sign-in .custom-radio label {
+    display: block;
+    position: relative;
+    line-height: 16px;
+    margin: 0;
+    padding: 7px 10px 7px 24px;
+    cursor: pointer;
+    color: #E8C547;
+}
+
 #okta-sign-in .o-form-head {
     color: #E8C547;
     text-transform: uppercase;
