@@ -24,6 +24,7 @@ body {
   #okta-sign-in.auth-container .okta-sign-in-header {
     /* -- Fonts and Text Colors -- */
     color: #5e5e5e;
+    border-radius: 15px 50px 30px 5px;
   }
   
   #okta-sign-in.auth-container .okta-form-subtitle,
@@ -136,7 +137,6 @@ body {
   #okta-sign-in.auth-container .okta-sign-in-header {
     /* -- Main Background and Border Colors -- */
     border-bottom-color: #ddd;
-    border-radius: 15px 50px 30px 5px;
   }
   
   #okta-sign-in.auth-container .okta-sign-in-beacon-border {
