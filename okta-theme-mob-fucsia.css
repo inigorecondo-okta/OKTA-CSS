@@ -136,6 +136,7 @@ body {
   #okta-sign-in.auth-container .okta-sign-in-header {
     /* -- Main Background and Border Colors -- */
     border-bottom-color: #ddd;
+    border-radius: 15px 50px 30px 5px;
   }
   
   #okta-sign-in.auth-container .okta-sign-in-beacon-border {
