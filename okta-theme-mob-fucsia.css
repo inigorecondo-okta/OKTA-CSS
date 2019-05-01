@@ -6,8 +6,18 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+/* CSS okta-sign-in.min.css*/
+
 #okta-sign-in {
     border-radius: 15px 50px 30px 5px;
+}
+#okta-sign-in .social-auth-google-button {
+    background-color: #de4937;
+    border-radius: 50px;
+    background: url(../img/icons/login/google_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#d43722 50px,#de4937 0);
+    background: url(../img/icons/login/google_logo.png) no-repeat 10px,linear-gradient(90deg,#d43722 50px,#de4937 0);
+    border: 1px solid #b63c33;
 }
 
 /* stylelint-disable selector-max-id */
