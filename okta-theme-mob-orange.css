@@ -16,6 +16,13 @@ body {
     background-repeat: no-repeat;
 }
 
+#okta-sign-in .auth-divider .auth-divider-text {
+    /* background-color: #fff; */
+    position: relative;
+    top: -.5em;
+    padding: 0 15px;
+}
+
 #okta-sign-in .o-form-head {
     color: #E8C547;
     text-transform: uppercase;
