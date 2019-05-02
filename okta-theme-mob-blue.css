@@ -81,6 +81,7 @@ body {
     background: url(../img/icons/login/microsoft_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#4294de 50px,#00a1f1 0);
     background: url(../img/icons/login/microsoft_logo.png) no-repeat 10px,linear-gradient(90deg,#4294de 50px,#00a1f1 0);
     border: 1px solid #447199;
+    text-shadow: #fff 1px 0 10px;
     opacity: 0.8;
 }
 
