@@ -12,7 +12,7 @@ body {
     border-color: #0c1821;
     border-radius: 20px 100px 20px 100px;
     border: solid #626782 2px;
-    box-shadow: 3px 3px 3px #827c7c;
+    /* box-shadow: 3px 3px 3px #827c7c; */
 }
 
 #okta-sign-in.no-beacon .auth-header {
