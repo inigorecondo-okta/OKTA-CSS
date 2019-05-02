@@ -46,6 +46,12 @@ body {
     color: #777;
 }
 
+#okta-sign-in.auth-container .okta-form-input-field {
+    background-color: #000;
+    /* color: #000; */
+    opacity: 0.5;
+}
+
 #okta-sign-in .social-auth-google-button {
     /* background-color: #f1d10d; */
     background: url(../img/icons/login/google_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#d43722 50px,#de4937 0);
