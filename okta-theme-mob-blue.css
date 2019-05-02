@@ -11,6 +11,7 @@ body {
     background-color: #24678087;
     border-color: #0c1821;
     border-radius: 20px 100px 20px 100px;
+    border: solid #626782 2px;
 }
 
 #okta-sign-in.no-beacon .auth-header {
@@ -18,6 +19,63 @@ body {
     border-radius: 50px;
     height: 0px;
     opacity: 0;
+}
+
+#okta-sign-in .social-auth-button.link-button:active, #okta-sign-in .social-auth-button.link-button:focus, #okta-sign-in .social-auth-button.link-button:hover, #okta-sign-in .social-auth-button.link-button:visited {
+    text-decoration: none;
+}
+#okta-sign-in .social-auth-button.link-button {
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    line-height: 50px;
+    margin-top: 15px;
+    padding-left: 90px;
+    text-align: left;
+}
+#okta-sign-in .button-primary.default-custom-button.link-button, #okta-sign-in .button-primary.social-auth-button.link-button, #okta-sign-in .button-wide, #okta-sign-in .button-wide.button-primary, #okta-sign-in .default-custom-button.link-button, #okta-sign-in .social-auth-button.link-button {
+    width: 100%;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+}
+#okta-sign-in a:active, #okta-sign-in a:link, #okta-sign-in a:visited {
+    text-decoration: none;
+    color: #777;
+}
+
+#okta-sign-in .social-auth-google-button {
+    /* background-color: #f1d10d; */
+    background: url(../img/icons/login/google_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#d43722 50px,#de4937 0);
+    background: url(../img/icons/login/google_logo.png) no-repeat 10px,linear-gradient(90deg,#d43722 50px,#de4937 0);
+    border: 3px solid #b63c33;
+    opacity: 0.8;
+}
+
+#okta-sign-in .social-auth-facebook-button {
+    background-color: #406094;
+    background: url(../img/icons/login/facebook_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#304879 50px,#406094 0);
+    background: url(../img/icons/login/facebook_logo.png) no-repeat 10px,linear-gradient(90deg,#304879 50px,#406094 0);
+    border: 1px solid #375685;
+    opacity: 0.8;
+}
+
+#okta-sign-in .social-auth-linkedin-button {
+    background-color: #0077b5;
+    background: url(../img/icons/login/linkedin_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#04659a 50px,#0077b5 0);
+    background: url(../img/icons/login/linkedin_logo.png) no-repeat 10px,linear-gradient(90deg,#04659a 50px,#0077b5 0);
+    border: 1px solid #0f608f;
+    opacity: 0.8;
+}
+
+#okta-sign-in .social-auth-microsoft-button {
+    background-color: #00a1f1;
+    background: url(../img/icons/login/microsoft_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#4294de 50px,#00a1f1 0);
+    background: url(../img/icons/login/microsoft_logo.png) no-repeat 10px,linear-gradient(90deg,#4294de 50px,#00a1f1 0);
+    border: 1px solid #447199;
+    opacity: 0.8;
 }
 
 #okta-sign-in .o-form-head {
