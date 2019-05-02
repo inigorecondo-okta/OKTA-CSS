@@ -1,10 +1,29 @@
 body {
-    background-image: url('https://inigorecondo-okta.github.io/OKTA-CSS/old-grunge-cement-wall-background.jpg');
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/NkzqDhfneildzktre/metallic-grid-motion-background-dark-metal-background-with-perforated-holes_4dx_oqx2l__F0000.png');
     background-position: center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#okta-sign-in.auth-container.main-container {
+    /* color: #fff; */
+    background-color: #1a1d1a;
+    border-color: #0c1821;
+    border-radius: 20px 100px 20px 100px
+}
+
+#okta-sign-in .o-form-head {
+    color: #00BCD4;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-shadow: #fff 1px 0 10px;
+}
+
+#okta-sign-in.auth-container .okta-form-input-field {
+    background-color: #231b1bc2;
+    color: #000;
 }
 
 #okta-sign-in {
@@ -44,6 +63,8 @@ body {
   top: -.5em;
   padding: 0 15px;
 }
+
+
 
 #okta-sign-in .custom-checkbox label, #okta-sign-in .custom-radio label {
   display: block;
