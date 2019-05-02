@@ -1,10 +1,16 @@
 body {
-    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/NkzqDhfneildzktre/metallic-grid-motion-background-dark-metal-background-with-perforated-holes_4dx_oqx2l__F0000.png');
+    background-image: url('https://www.desktopbackground.org/download/1920x1080/2011/02/26/163813_perforated-blue-metal-hd-wallpapers_1920x1200_h.jpg');
     background-position: center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#okta-sign-in.auth-container.main-container {
+    color: #f5f2f2;
+    background-color: #24678087;
+    border-color: #0c1821;
 }
 
 #okta-sign-in.auth-container.main-container {
