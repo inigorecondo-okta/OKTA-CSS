@@ -7,6 +7,18 @@ body {
     background-size: cover;
 }
 
+#okta-sign-in .auth-header {
+    padding: 30px 90px 75px;
+    /* position: relative; */
+    border-bottom: 1px solid #ddd;
+    z-index: 10;
+    -moz-transition: padding-bottom .4s;
+    -webkit-transition: padding-bottom .4s;
+    /* transition: padding-bottom .4s; */
+    border-radius: 50px;
+    opacity: 0;
+}
+
 #okta-sign-in.auth-container.main-container {
     color: #f5f2f2;
     background-color: #24678087;
