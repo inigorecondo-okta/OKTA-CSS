@@ -26,6 +26,12 @@ body {
 }
 
 #okta-sign-in.auth-container.main-container {
+    color: #f5f2f2;
+    background-color: #24678087;
+    border-color: #0c1821;
+}
+
+#okta-sign-in.auth-container.main-container {
     /* color: #fff; */
     background-color: #1a1d1a;
     border-color: #0c1821;
@@ -104,11 +110,6 @@ body {
   color: #1a1d18;
 }
      
-#okta-sign-in.auth-container.main-container {
-   color: #fff;
-   background-color: #1a1d1a;
-   border-color: #0c1821;
-}
 .beacon-blank {
    background-color: #000;
 }
