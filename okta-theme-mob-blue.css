@@ -11,7 +11,7 @@ body {
     /* color: #fff; */
     background-color: #1a1d1a;
     border-color: #0c1821;
-    border-radius: 20px 100px 20px 100px
+    border-radius: 20px 100px 20px 100px;
 }
 
 #okta-sign-in .o-form-head {
