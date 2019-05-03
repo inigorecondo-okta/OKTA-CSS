@@ -1,91 +1,222 @@
 body {
-      background-image: url('http://i.imgur.com/q96VsUt.jpg');
-      background-position: center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+    background-image: url('https://media.istockphoto.com/photos/black-texture-paper-with-rough-finish-picture-id505147151?k=6&m=505147151&s=612x612&w=0&h=HSQgGfVY3w8_hYXk2HTWk6ArjZFF1wixAJGX2UAjgfs=');
+    background-position: center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#okta-sign-in.auth-container.main-container {
+    color: #f5f2f2;
+    background-color: #24678087;
+    border-color: #0c1821;
+    border-radius: 20px 100px 20px 100px;
+    border: solid #626782 2px;
+    /* box-shadow: 3px 3px 3px #827c7c; */
 }
 
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
-    background: #e8c547;
+    background: #a0ca40;
     color: #1a1d18;
 }
-       
- #okta-sign-in.auth-container.main-container {
-     color: #fff;
-     background-color: #1a1d1a;
-     border-color: #0c1821;
- }
- .beacon-blank {
-     background-color: #000;
- }
- #okta-sign-in.auth-container.main-container .bg-helper {
-     color: #000;
- }
- #okta-sign-in.auth-container .okta-sign-in-header {
-     border-bottom-color: #323232;
- }
- #okta-sign-in.auth-container .okta-form-input-field{
-     background-color: #000;
-     color: #000;
- }
- #okta-sign-in.auth-container .okta-form-input-field {
-     border-color: #4d5061;
-     outline: none;
- }
- #okta-sign-in.auth-container .okta-form-input-field.focused-input {
-     border-color: #707280;
- }
 
-#okta-sign-in .registration .subschema .subschema-satisfied {
-    color: green;
+#okta-sign-in.no-beacon .auth-header {
+    padding-bottom: 0px;
+    border-radius: 50px;
+    height: 0px;
+    opacity: 0;
 }
 
+#okta-sign-in .social-auth-button.link-button:active, #okta-sign-in .social-auth-button.link-button:focus, #okta-sign-in .social-auth-button.link-button:hover, #okta-sign-in .social-auth-button.link-button:visited {
+    text-decoration: none;
+}
+#okta-sign-in .social-auth-button.link-button {
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    line-height: 50px;
+    margin-top: 15px;
+    padding-left: 90px;
+    text-align: left;
+}
+#okta-sign-in .button-primary.default-custom-button.link-button, #okta-sign-in .button-primary.social-auth-button.link-button, #okta-sign-in .button-wide, #okta-sign-in .button-wide.button-primary, #okta-sign-in .default-custom-button.link-button, #okta-sign-in .social-auth-button.link-button {
+    width: 100%;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+}
+#okta-sign-in a:active, #okta-sign-in a:link, #okta-sign-in a:visited {
+    text-decoration: none;
+    color: #777;
+}
+
+#okta-sign-in.auth-container .okta-form-input-field {
+    background-color: #000;
+    /* color: #000; */
+    opacity: 0.5;
+}
+
+#okta-sign-in .social-auth-google-button {
+    /* background-color: #f1d10d; */
+    background: url(../img/icons/login/google_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#d43722 50px,#de4937 0);
+    background: url(../img/icons/login/google_logo.png) no-repeat 10px,linear-gradient(90deg,#d43722 50px,#de4937 0);
+    border: 3px solid #b63c33;
+    opacity: 0.8;
+}
+
+#okta-sign-in .social-auth-facebook-button {
+    background-color: #406094;
+    background: url(../img/icons/login/facebook_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#304879 50px,#406094 0);
+    background: url(../img/icons/login/facebook_logo.png) no-repeat 10px,linear-gradient(90deg,#304879 50px,#406094 0);
+    border: 1px solid #375685;
+    opacity: 0.8;
+}
+
+#okta-sign-in .social-auth-linkedin-button {
+    background-color: #0077b5;
+    background: url(../img/icons/login/linkedin_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#04659a 50px,#0077b5 0);
+    background: url(../img/icons/login/linkedin_logo.png) no-repeat 10px,linear-gradient(90deg,#04659a 50px,#0077b5 0);
+    border: 1px solid #0f608f;
+    opacity: 0.8;
+}
+
+#okta-sign-in .social-auth-microsoft-button {
+    background-color: #00a1f1;
+    background: url(../img/icons/login/microsoft_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#4294de 50px,#00a1f1 0);
+    background: url(../img/icons/login/microsoft_logo.png) no-repeat 10px,linear-gradient(90deg,#4294de 50px,#00a1f1 0);
+    border: 1px solid #447199;
+    text-shadow: #fff 1px 0 10px;
+    opacity: 0.8;
+}
+
+#okta-sign-in .o-form-head {
+    color: #00BCD4;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-shadow: #fff 1px 0 10px;
+}
+
+#okta-sign-in.auth-container .okta-form-input-field {
+    background-color: #231b1bc2;
+    color: #000;
+}
+
+#okta-sign-in {
+    font-family: montserrat,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    /* line-height: 1.4; */
+    /*background-color: #f9f9f9;*/
+    background-color: #ffff;
+    border-radius: 15px 50px 30px 5px;
+    color: #777;
+    position: relative;
+    overflow: auto;
+    /*border-radius: 3px;*/
+    /*border-style: solid;*/
+    border-style: none;
+    /*border-width: 1px;*/
+    height: 100%;
+    margin: 0px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 400px;
+    min-width: 300px;
+}
+
+#okta-sign-in .auth-org-logo {
+  display: block;
+  margin: 0 auto;
+  /* max-width: 200px; */
+  max-height: 40px;
+  content: url(https://cdn.designcrowd.com/blog/2015/June/Yellow-Logos/10-yellow-pages.png);
+  background-repeat: no-repeat;
+}
+
+#okta-sign-in .auth-divider .auth-divider-text {
+  background-color: transparent; 
+  position: relative;
+  top: -.5em;
+  padding: 0 15px;
+}
+
+#okta-sign-in .custom-checkbox label, #okta-sign-in .custom-radio label {
+  display: block;
+  position: relative;
+  line-height: 16px;
+  margin: 0;
+  padding: 7px 10px 7px 24px;
+  cursor: pointer;
+  color: #00BCD4;
+}
+
+#okta-sign-in .o-form-head {
+  color: #00BCD4;
+  text-transform: uppercase;
+}
+     
+.beacon-blank {
+   background-color: #000;
+}
+#okta-sign-in.auth-container.main-container .bg-helper {
+   color: #000;
+}
+#okta-sign-in.auth-container .okta-sign-in-header {
+   border-bottom-color: #323232;
+}
+#okta-sign-in.auth-container .okta-form-input-field{
+   background-color: #000;
+   color: #000;
+}
+#okta-sign-in.auth-container .okta-form-input-field {
+   border-color: #4d5061;
+   outline: none;
+}
+#okta-sign-in.auth-container .okta-form-input-field.focused-input {
+   border-color: #707280;
+}
 
 #okta-sign-in.auth-container .okta-form-input-field input {
-    font-family: "montserrat", Arial, Helvetica, sans-serif;
-    color: #fff;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  color: #fff;
 }
 
 #okta-sign-in .registration-container .registration-link {
-    margin-left: 10px;
-    color: #e8c547;
+  margin-left: 10px;
+  color: #00BCD4;
 }
 
 #okta-sign-in .infobox, #okta-sign-in .infobox-md {
-    border: 1px solid #cc0000;
-    border-radius: 3px;
-    background-color: #fbfbfb;
+  border: 1px solid #cc0000;
+  border-radius: 3px;
+  background-color: #fbfbfb;
 }
 
 
 #okta-sign-in .ajax-form-editor .infobox, #okta-sign-in .edit-form .infobox, #okta-sign-in .form-content-wrap .infobox, #okta-sign-in .m-form .infobox, #okta-sign-in .o-form .infobox, #okta-sign-in .read-only-form .infobox, #okta-sign-in .v-form .infobox {
-    background-color: #101d1a;
+  background-color: #101d1a;
 }
 
-#okta-sign-in.auth-container.main-container {
-     color: #fff;
-     background-color: #1a1d1a;
-     border-color: #0c1821;
- }
- .beacon-blank {
-     background-color: #000;
- }
- #okta-sign-in.auth-container.main-container .bg-helper {
-     color: #000;
- }
- #okta-sign-in.auth-container .okta-sign-in-header {
-     border-bottom-color: #323232;
- }
- #okta-sign-in.auth-container .okta-form-input-field{
-     background-color: #000;
-     color: #000;
- }
- #okta-sign-in.auth-container .okta-form-input-field {
-     border-color: #4d5061;
-     outline: none;
- }
- #okta-sign-in.auth-container .okta-form-input-field.focused-input {
-     border-color: #707280;
- }
+.beacon-blank {
+   background-color: #000;
+}
+#okta-sign-in.auth-container.main-container .bg-helper {
+   color: #000;
+}
+#okta-sign-in.auth-container .okta-sign-in-header {
+   border-bottom-color: #323232;
+}
+#okta-sign-in.auth-container .okta-form-input-field{
+   background-color: #000;
+   color: #000;
+}
+#okta-sign-in.auth-container .okta-form-input-field {
+   border-color: #4d5061;
+   outline: none;
+}
+#okta-sign-in.auth-container .okta-form-input-field.focused-input {
+   border-color: #707280;
+}
