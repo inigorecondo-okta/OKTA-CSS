@@ -6,6 +6,15 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+#okta-sign-in .auth-divider {
+    background-color: #a7a7a7;
+    height: 1px;
+    margin-bottom: 25px;
+    text-align: center;
+    display: none;
+}
+
 #okta-sign-in.auth-container.main-container {
     color: #f5f2f2;
     background-color: #24678087;
