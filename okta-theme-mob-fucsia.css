@@ -53,6 +53,10 @@ body {
     text-align: left;
 }
 
+#okta-sign-in .social-auth-google-button.link-button {
+  /* color: #2f3f4a; */
+}
+
 #okta-sign-in .social-auth-google-button {
   /* background-color: #de4937; */
   /* background: url(../img/icons/login/google_logo.png) no-repeat 10px,-webkit-linear-gradient(left,#d43722 50px,#de4937 0); */
