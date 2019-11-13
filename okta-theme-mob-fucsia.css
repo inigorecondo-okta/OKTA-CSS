@@ -44,7 +44,7 @@ body {
 #okta-sign-in .social-auth-button.link-button {
     border-radius: 50px;
     box-sizing: border-box;
-    color: #fff;
+    /* color: #fff; */
     display: block;
     font-size: 13px;
     line-height: 50px;
