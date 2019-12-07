@@ -30,16 +30,16 @@ body {
     margin: 0;
     padding: 7px 10px 7px 24px;
     cursor: pointer;
-    color: #E8C547;
+    color: #E22866;
 }
 
 #okta-sign-in .o-form-head {
-    color: #E8C547;
+    color: #E22866;
     text-transform: uppercase;
 }
 
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
-    background: #e8c547;
+    background: #E22866;
     color: #1a1d18;
 }
        
@@ -76,7 +76,7 @@ body {
 
 #okta-sign-in .registration-container .registration-link {
     margin-left: 10px;
-    color: #e8c547;
+    color: #E22866;
 }
 
 #okta-sign-in .infobox, #okta-sign-in .infobox-md {
@@ -117,6 +117,6 @@ body {
  }
  
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
-    background: #e8c547;
+    background: #E22866;
     color: #1a1d18;
 }
