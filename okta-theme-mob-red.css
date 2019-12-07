@@ -35,7 +35,7 @@ body {
 
 #okta-sign-in .o-form-head {
     color: #E8C547;
-    font-size: 20;
+    font-size: 20px !important;
     text-transform: uppercase;
 }
 
@@ -46,7 +46,7 @@ body {
        
  #okta-sign-in.auth-container.main-container {
      color: #fff;
-     background-image: url('http://wallperio.com/data/out/566/wallpapers-wallpapers_629707581.jpg');
+     background-image: url('https://wallpapercave.com/wp/wp4453604.png');
      /* background-color: #1a1d1a; */
      border-color: #0c1821;
  }
