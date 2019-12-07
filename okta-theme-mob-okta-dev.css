@@ -87,7 +87,7 @@ body {
 #okta-sign-in .infobox, #okta-sign-in .infobox-md {
     border: 1px solid #cc0000;
     border-radius: 3px;
-    background-color: #fbfbfb;
+    /* background-color: #fbfbfb; */
 }
 
 
