@@ -7,14 +7,14 @@ body {
       background-size: cover;
 }
 
-#okta-sign-in .auth-org-logo {
+/* #okta-sign-in .auth-org-logo {
     display: block;
     margin: 0 auto;
-    /* max-width: 200px; */
+    max-width: 200px;
     max-height: 40px;
     content: url(https://cdn.designcrowd.com/blog/2015/June/Yellow-Logos/10-yellow-pages.png);
     background-repeat: no-repeat;
-}
+} */
 
 #okta-sign-in .auth-divider .auth-divider-text {
     background-color: transparent; 
@@ -50,11 +50,12 @@ body {
        
  #okta-sign-in.auth-container.main-container {
      color: #fff;
-     /* background-color: #1F313B; */
+     background-color: #1F313B;
      border-color: #0c1821;
  }
+
  .beacon-blank {
-     /* background-color: #000; */
+     background-color: #000;
  }
  #okta-sign-in.auth-container.main-container .bg-helper {
      color: #fff;
