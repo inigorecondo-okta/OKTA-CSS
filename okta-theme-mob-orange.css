@@ -120,3 +120,13 @@ body {
     background: #e8c547;
     color: #1a1d18;
 }
+
+#okta-sign-in.auth-container .okta-form-label {
+    font-weight: 600;
+    color: #fff !important;
+  }
+  
+  #okta-sign-in.auth-container h2, #okta-sign-in.auth-container h3 {
+    font-weight: 700;
+    color: #e8c547;
+  }
