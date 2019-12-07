@@ -128,5 +128,5 @@ body {
   
   #okta-sign-in.auth-container h2, #okta-sign-in.auth-container h3 {
     font-weight: 700;
-    color: #e8c547;
+    color: #e8c547 !important;
   }
