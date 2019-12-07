@@ -1,5 +1,5 @@
 body {
-      background-image: url('https://365psd.com/images/previews/5d3/christmas-background-pattern-29524.jpg');
+      background-image: url('https://www.htmlcsscolor.com/preview/gallery/375B7A.png');
       background-position: center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -30,24 +30,24 @@ body {
     margin: 0;
     padding: 7px 10px 7px 24px;
     cursor: pointer;
-    color: #E8C547;
+    color: #019C9B;
 }
 
 #okta-sign-in .o-form-head {
-    color: #E8C547;
+    color: #019C9B;
     font-size: 20px !important;
     text-transform: uppercase;
 }
 
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
-    background: #e8c547;
+    background: #019C9B;
     color: #1a1d18;
 }
        
  #okta-sign-in.auth-container.main-container {
      color: #fff;
-     background-image: url('https://wallpapercave.com/wp/wp4453604.png');
-     /* background-color: #1a1d1a; */
+     /* background-image: url('https://wallpapercave.com/wp/wp4453604.png'); */
+     background-color: #1C3A52;
      border-color: #0c1821;
  }
  .beacon-blank {
@@ -79,7 +79,7 @@ body {
 
 #okta-sign-in .registration-container .registration-link {
     margin-left: 10px;
-    color: #e8c547;
+    color: #019C9B;
 }
 
 #okta-sign-in .infobox, #okta-sign-in .infobox-md {
@@ -120,7 +120,7 @@ body {
  }
  
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
-    background: #e8c547;
+    background: #019C9B;
     color: #1a1d18;
 }
 
@@ -131,5 +131,5 @@ body {
   
   #okta-sign-in.auth-container h2, #okta-sign-in.auth-container h3 {
     font-weight: 700;
-    color: #e8c547 !important;
+    color: #019C9B !important;
   }
