@@ -63,7 +63,7 @@ body {
      border-bottom-color: #323232;
  }
  #okta-sign-in.auth-container .okta-form-input-field{
-     background-color: #000;
+     /* background-color: #000; */
      color: #000;
  }
  #okta-sign-in.auth-container .okta-form-input-field {
@@ -110,7 +110,7 @@ body {
      border-bottom-color: #323232;
  }
  #okta-sign-in.auth-container .okta-form-input-field{
-     background-color: #000;
+     /* background-color: #000; */
      color: #000;
  }
  #okta-sign-in.auth-container .okta-form-input-field {
