@@ -45,7 +45,7 @@ body {
 
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
     background: #E22866;
-    color: #1a1d18;
+    color: #fff;
 }
        
  #okta-sign-in.auth-container.main-container {
@@ -123,5 +123,5 @@ body {
  
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
     background: #E22866;
-    color: #1a1d18;
+    color: #fff;
 }
