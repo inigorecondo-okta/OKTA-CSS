@@ -95,11 +95,6 @@ body {
     background-color: #101d1a;
 }
 
-#okta-sign-in.auth-container.main-container {
-     color: #fff;
-     /* background-color: #1F313B; */
-     border-color: #0c1821;
- }
  .beacon-blank {
      background-color: #000;
  }
@@ -129,4 +124,9 @@ body {
 #okta-sign-in.auth-container .okta-form-label {
     font-weight: 600;
     color: #2f3f4a;
+}
+#okta-sign-in.auth-container.main-container {
+    color: #fff;
+    /* background-color: #1F313B; */
+    border-color: #0c1821;
 }
