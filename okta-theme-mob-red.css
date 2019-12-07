@@ -35,6 +35,7 @@ body {
 
 #okta-sign-in .o-form-head {
     color: #E8C547;
+    font-size: 20;
     text-transform: uppercase;
 }
 
@@ -45,7 +46,7 @@ body {
        
  #okta-sign-in.auth-container.main-container {
      color: #fff;
-     background-image: url('https://i.pinimg.com/originals/a8/50/c5/a850c580be46caf8f9edfd68466bf873.jpg');
+     background-image: url('http://wallperio.com/data/out/566/wallpapers-wallpapers_629707581.jpg');
      /* background-color: #1a1d1a; */
      border-color: #0c1821;
  }
@@ -57,6 +58,7 @@ body {
  }
  #okta-sign-in.auth-container .okta-sign-in-header {
      border-bottom-color: #323232;
+     border: none;
  }
  #okta-sign-in.auth-container .okta-form-input-field{
      background-color: #000;
