@@ -124,7 +124,7 @@ body {
 
 #okta-sign-in.auth-container .okta-form-label {
     font-weight: 600;
-    color: #fff;
+    color: #fff !important;
 }
 #okta-sign-in.auth-container.main-container {
     color: #fff;
