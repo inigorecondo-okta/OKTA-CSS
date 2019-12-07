@@ -38,6 +38,11 @@ body {
     text-transform: uppercase;
 }
 
+#okta-sign-in.auth-container h2, #okta-sign-in.auth-container h3 {
+    font-weight: 700;
+    color: #fff;
+}
+
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
     background: #E22866;
     color: #1a1d18;
