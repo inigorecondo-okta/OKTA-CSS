@@ -55,8 +55,8 @@ body {
        
  #okta-sign-in.auth-container.main-container {
      color: #fff;
-     background-image: url('http://wallperio.com/data/out/348/plain-black-hd-wallpaper_615707475.jpg');
-     /* background-color: #1C3A52; */
+     /* background-image: url('http://wallperio.com/data/out/348/plain-black-hd-wallpaper_615707475.jpg'); */
+     background-color: rgb(27, 25, 49);
      border-color: #0F0948;
  }
  .beacon-blank {
