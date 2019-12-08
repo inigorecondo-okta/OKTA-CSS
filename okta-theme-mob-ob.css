@@ -1,5 +1,5 @@
 body {
-      background-image: url('https://image.freepik.com/free-vector/big-data-waterfall-streams-digital-binary-code_107791-147.jpg');
+      background-image: url('https://image.shutterstock.com/image-vector/online-banking-landing-page-template-260nw-1434424562.jpg');
       background-position: center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -127,8 +127,7 @@ body {
  #okta-sign-in.auth-container .okta-form-input-field.focused-input {
      border-color: #707280;
  }
-
- /* Next button text */
+ 
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
     background: #B72699;
     color: #fff !important;
