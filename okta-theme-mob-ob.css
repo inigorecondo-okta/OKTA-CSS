@@ -55,8 +55,8 @@ body {
        
  #okta-sign-in.auth-container.main-container {
      color: #fff;  
-     background-image: url('https://inigorecondo-okta.github.io/OKTA-CSS/background-contatiner-banking.png');
-     /* background-color: rgb(27, 25, 49); */
+     /* background-image: url('https://inigorecondo-okta.github.io/OKTA-CSS/background-contatiner-banking.png'); */
+     background-color: rgb(27, 25, 49);
      border-color: #0F0948;
  }
  .beacon-blank {
