@@ -54,9 +54,9 @@ body {
 }
        
  #okta-sign-in.auth-container.main-container {
-     color: #fff;
-     /* background-image: url('http://wallperio.com/data/out/348/plain-black-hd-wallpaper_615707475.jpg'); */
-     background-color: rgb(27, 25, 49);
+     color: #fff;  
+     background-image: url('https://inigorecondo-okta.github.io/OKTA-CSS/background-contatiner-banking');
+     /* background-color: rgb(27, 25, 49); */
      border-color: #0F0948;
  }
  .beacon-blank {
