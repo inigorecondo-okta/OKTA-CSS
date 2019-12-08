@@ -131,9 +131,10 @@ body {
     color: rgb(192, 188, 188) !important;
   }
   
+  /* Sign in to okta text */
   #okta-sign-in.auth-container h2, #okta-sign-in.auth-container h3 {
     font-weight: 700;
-    color: #372CAE !important;
+    color: #fff !important;
   }
 
   #okta-sign-in .registration-container .content-container {
