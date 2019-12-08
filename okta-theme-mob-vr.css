@@ -1,0 +1,152 @@
+body {
+      background-image: url('https://img.freepik.com/free-vector/virtual-reality-concept-with-illustration-3d-vr-glasses-can-be-used-as-website-landing-page-design_1302-19620.jpg?size=626&ext=jpg');
+      background-position: center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+#okta-sign-in .auth-org-logo {
+    display: block;
+    margin: 0 auto;
+    /* max-width: 200px; */
+    max-height: 40px;
+    content: url('https://cdn.designcrowd.com/blog/2015/June/Yellow-Logos/10-yellow-pages.png');
+    background-repeat: no-repeat;
+}
+
+#okta-sign-in .auth-divider {
+    /* background-color: #a7a7a7; */
+    height: 1px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#okta-sign-in .auth-divider .auth-divider-text {
+    background-color: transparent; 
+    position: relative;
+    top: -.5em;
+    padding: 0 15px;
+    color: transparent;
+}
+
+#okta-sign-in .custom-checkbox label, #okta-sign-in .custom-radio label {
+    display: block;
+    position: relative;
+    line-height: 16px;
+    margin: 0;
+    padding: 7px 10px 7px 24px;
+    cursor: pointer;
+    color: #0C8E9E;
+}
+
+#okta-sign-in .o-form-head {
+    color: #0C8E9E;
+    font-size: 20px !important;
+    text-transform: uppercase;
+}
+
+#okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
+    background: #0C8E9E;
+    color: #fff;
+    font-size: 16px;
+}
+       
+ #okta-sign-in.auth-container.main-container {
+     color: #fff;
+     background-image: url('http://wallperio.com/data/out/348/plain-black-hd-wallpaper_615707475.jpg');
+     /* background-color: #1C3A52; */
+     border-color: #0c1821;
+ }
+ .beacon-blank {
+     background-color: #000;
+ }
+ #okta-sign-in.auth-container.main-container .bg-helper {
+     color: #000;
+ }
+ #okta-sign-in.auth-container .okta-sign-in-header {
+     border-bottom-color: #323232;
+     border: none;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field{
+     background-color: #000;
+     color: #000;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field {
+     border-color: #4d5061;
+     outline: none;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field.focused-input {
+     border-color: #707280;
+ }
+
+#okta-sign-in.auth-container .okta-form-input-field input {
+    font-family: "montserrat", Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#okta-sign-in .registration-container .registration-link {
+    margin-left: 10px;
+    color: #0C8E9E;
+}
+
+#okta-sign-in .infobox, #okta-sign-in .infobox-md {
+    border: 1px solid #cc0000;
+    border-radius: 3px;
+    background-color: #fbfbfb;
+}
+
+
+#okta-sign-in .ajax-form-editor .infobox, #okta-sign-in .edit-form .infobox, #okta-sign-in .form-content-wrap .infobox, #okta-sign-in .m-form .infobox, #okta-sign-in .o-form .infobox, #okta-sign-in .read-only-form .infobox, #okta-sign-in .v-form .infobox {
+    background-color: #101d1a;
+}
+
+#okta-sign-in.auth-container.main-container {
+     color: #fff;
+     background-color: #1a1d1a;
+     border-color: #0c1821;
+ }
+ .beacon-blank {
+     background-color: #000;
+ }
+ #okta-sign-in.auth-container.main-container .bg-helper {
+     color: #000;
+ }
+ #okta-sign-in.auth-container .okta-sign-in-header {
+     border-bottom-color: #323232;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field{
+     background-color: #000;
+     color: #000;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field {
+     border-color: #4d5061;
+     outline: none;
+ }
+ #okta-sign-in.auth-container .okta-form-input-field.focused-input {
+     border-color: #707280;
+ }
+ 
+#okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
+    background: #0C8E9E;
+    color: #1a1d18;
+}
+
+#okta-sign-in.auth-container .okta-form-label {
+    font-weight: 600;
+    color: rgb(192, 188, 188) !important;
+  }
+  
+  #okta-sign-in.auth-container h2, #okta-sign-in.auth-container h3 {
+    font-weight: 700;
+    color: #0C8E9E !important;
+  }
+
+  #okta-sign-in .registration-container .content-container {
+    padding: 30px 42px;
+    -webkit-transition: padding-top .4s;
+    transition: padding-top .4s;
+    /* border-top: 1px solid #ddd; */
+    margin-top: 5px;
+}
