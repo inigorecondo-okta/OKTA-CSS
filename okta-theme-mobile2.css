@@ -15,6 +15,11 @@
     /* -- Fonts and Text Colors -- */
     color: #5e5e5e;
   }
+
+
+
+   /* FFE500 */
+
   
   #okta-sign-in.auth-container .okta-form-subtitle,
   #okta-sign-in.auth-container .okta-form-label {
@@ -542,9 +547,9 @@
     /* main button color */
     color: #fff;
     background-color: transparent;
-    background: -o-linear-gradient(top, #007dc1 0%, #0073b2 100%);
+    background: -o-linear-gradient(top, #FFE500 0%, #FFE500 100%);
     /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #007dc1 0%, #0073b2 100%);
+    background: -ms-linear-gradient(top, #FFE500 0%, #FFE500 100%);
     /* IE10+ */
     background: -webkit-linear-gradient(#007dc1, #0073b2);
     background: linear-gradient(#007dc1, #0073b2);
