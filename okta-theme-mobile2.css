@@ -547,6 +547,8 @@
     /* -- Buttons' Colors -- */
     /* main button color */
     color: #131313;
+    font-weight: bold;
+    border-radius: 5px;
     background-color: transparent;
     background: -o-linear-gradient(top, #FFE500 0%, #FFE500 100%);
     /* Opera 11.10+ */
