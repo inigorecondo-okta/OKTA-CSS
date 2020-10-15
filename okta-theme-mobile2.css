@@ -14,6 +14,7 @@
   #okta-sign-in.auth-container .okta-sign-in-header {
     /* -- Fonts and Text Colors -- */
     color: #5e5e5e;
+    display: none;
   }
 
 
