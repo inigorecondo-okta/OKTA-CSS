@@ -560,13 +560,13 @@
   
   #okta-sign-in.auth-container .button-primary:hover, #okta-sign-in.auth-container .button-primary:focus, #okta-sign-in.auth-container .button-primary:active, #okta-sign-in.auth-container .button-primary:focus {
     /* -- Buttons' Colors -- */
-    background-color: #0087d0;
-    background: -o-linear-gradient(top, #0087d0 0%, #007dc1 100%);
+    background-color: #FFE500;
+    background: -o-linear-gradient(top, #FFE500 0%, #FFE500 100%);
     /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #0087d0 0%, #007dc1 100%);
+    background: -ms-linear-gradient(top, #FFE500 0%, #FFE500 100%);
     /* IE10+ */
-    background-image: -webkit-linear-gradient(#0087d0, #007dc1);
-    background-image: linear-gradient(#0087d0, #007dc1);
+    background-image: -webkit-linear-gradient(#FFE500, #FFE500);
+    background-image: linear-gradient(#FFE500, #FFE500);
     border-color: #003d5e;
     border-bottom-color: #003a59;
     text-decoration: none;
