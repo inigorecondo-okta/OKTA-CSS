@@ -545,7 +545,7 @@
   #okta-sign-in.auth-container .button-primary {
     /* -- Buttons' Colors -- */
     /* main button color */
-    color: #fff;
+    color: #131313;
     background-color: transparent;
     background: -o-linear-gradient(top, #FFE500 0%, #FFE500 100%);
     /* Opera 11.10+ */
@@ -553,9 +553,9 @@
     /* IE10+ */
     background: -webkit-linear-gradient(#FFE500, #FFE500);
     background: linear-gradient(#FFE500, #FFE500);
-    border-color: #004b75;
+    /* border-color: #004b75; */
     border-bottom-color: #00456a;
-    box-shadow: rgba(0, 0, 0, 0.15) 0 1px 0, rgba(255, 255, 255, 0.1) 0 1px 0 0 inset;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0 1px 0, rgba(255, 255, 255, 0.1) 0 1px 0 0 inset; */
   }
   
   #okta-sign-in.auth-container .button-primary:hover, #okta-sign-in.auth-container .button-primary:focus, #okta-sign-in.auth-container .button-primary:active, #okta-sign-in.auth-container .button-primary:focus {
