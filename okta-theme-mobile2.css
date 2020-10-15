@@ -542,13 +542,40 @@
     /* -- Buttons' Colors -- */
     box-shadow: none;
   }
+
+
+  #okta-sign-in.no-beacon .auth-header {
+    padding-bottom: 0px;
+    display: none;
+  }
+
+
+  #okta-sign-in .o-form-head {
+    margin: auto;
+    font-size: 14px;
+    line-height: 3.5;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: none;
+    background-color: #FFE500;
+    /* width: 400px; */
+}
+
+
+  #okta-sign-in .auth-content {
+    padding: 10px 10px 20px;
+    -webkit-transition: padding-top .4s;
+    transition: padding-top .4s;
+}
+
   
   #okta-sign-in.auth-container .button-primary {
     /* -- Buttons' Colors -- */
     /* main button color */
     color: #131313;
-    font-weight: bold;
-    border-radius: 5px;
+    border-radius: 30px;
+    font-size: 18px;
+    width: 120px;
     background-color: transparent;
     background: -o-linear-gradient(top, #FFE500 0%, #FFE500 100%);
     /* Opera 11.10+ */
