@@ -69,11 +69,11 @@ body {
      color: #000;
  }
  #okta-sign-in.auth-container .okta-form-input-field {
-     border-color: #fff;
+     border-color: #4d5061;
      outline: none;
  }
  #okta-sign-in.auth-container .okta-form-input-field.focused-input {
-     border-color: #fff;
+     border-color: #707280;
  }
 
 #okta-sign-in.auth-container .okta-form-input-field input {
@@ -104,24 +104,23 @@ body {
      color: #000;
  }
  #okta-sign-in.auth-container .okta-sign-in-header {
-     border-bottom-color: #323232;
+     border-bottom-color: #fff;
  }
  #okta-sign-in.auth-container .okta-form-input-field{
      /* background-color: #000; */
      color: #000;
  }
  #okta-sign-in.auth-container .okta-form-input-field {
-     border-color: #fff;
+     border-color: #4d5061;
      outline: none;
  }
  #okta-sign-in.auth-container .okta-form-input-field.focused-input {
-     border-color: #fff;
+     border-color: #707280;
  }
  
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
     background: #B0013A;
     color: #fff;
-    border-color: #fff;
 }
 
 #okta-sign-in.auth-container .okta-form-label {
