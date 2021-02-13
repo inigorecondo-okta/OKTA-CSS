@@ -1,5 +1,5 @@
 body {
-      background-image: url('https://inigorecondo-okta.github.io/OKTA-CSS/background-okta-dev.png');
+      background-color: white;
       background-position: center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -30,11 +30,11 @@ body {
     margin: 0;
     padding: 7px 10px 7px 24px;
     cursor: pointer;
-    color: #E22866;
+    color: #B0013A;
 }
 
 #okta-sign-in .o-form-head {
-    color: #E22866;
+    color: #B0013A;
     text-transform: uppercase;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
-    background: #E22866;
+    background: #B0013A;
     color: #fff;
 }
      
@@ -82,11 +82,11 @@ body {
 
 #okta-sign-in .registration-container .registration-link {
     margin-left: 10px;
-    color: #E22866;
+    color: #B0013A;
 }
 
 #okta-sign-in .infobox, #okta-sign-in .infobox-md {
-    border: 1px solid #cc0000;
+    border: 1px solid #B0013A;
     border-radius: 3px;
     /* background-color: #fbfbfb; */
 }
@@ -118,7 +118,7 @@ body {
  }
  
 #okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
-    background: #E22866;
+    background: #B0013A;
     color: #fff;
 }
 
