@@ -6,3 +6,11 @@ body {
       -o-background-size: cover;
       background-size: cover;
 }
+
+okta-sign-in.auth-container .button-primary {
+    color: #fff;
+    background-color: #007dc1;
+    background: linear-gradient(#03148C,#03148C);
+    border-color: #004b75 #004b75 #00456a;
+    box-shadow: 0 1px 0rgba(0,0,0,.15),inset 0 1px 0 0hsla(0,0%,100%,.1);
+}
