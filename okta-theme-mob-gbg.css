@@ -10,7 +10,7 @@ body {
 #okta-sign-in .auth-org-logo {
     display: block;
     margin: 0 auto;
-    /* max-width: 200px; */
+    /* max-width: 200px;   */
     max-height: 40px;
     content: url('https://inigorecondo-okta.github.io/OKTA-CSS/kerry_logo.png');
     background-repeat: no-repeat;
