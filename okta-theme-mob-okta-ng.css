@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     background-image: url('https://inigorecondo-okta.github.io/OKTA-CSS/background-okta-ng.jpeg');
     background-position: center center fixed;
     -webkit-background-size: cover;
@@ -6,3 +7,25 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+=======
+      background-image: url('https://inigorecondo-okta.github.io/OKTA-CSS/background-okta-ng.jpeg');
+      background-position: center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+#okta-sign-in.auth-container .button-primary {
+    color: #fff;
+    background-color: #007dc1;
+    background: linear-gradient(#03148C,#03148C);
+    border-color: #004b75 #004b75 #00456a;
+    box-shadow: 0 1px 0rgba(0,0,0,.15),inset 0 1px 0 0hsla(0,0%,100%,.1);
+}
+
+#okta-sign-in.auth-container .button-primary, #okta-sign-in.auth-container .button-primary:hover {
+    background: #03148C;
+    color: #fff;
+}
+>>>>>>> ee7a8f9d431b131342369798b9aa379fa0c8d760
